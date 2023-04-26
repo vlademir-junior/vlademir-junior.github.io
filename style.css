@@ -6,13 +6,23 @@ h1 h2 {
     font-family: 'Roboto', sans-serif;
 }
 
-p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-}
-
 li {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 300;
 }
+
+img {
+    border-radius: 50%;
+}
+
+.button {
+    display: grid;
+    color: #000000;
+    text-transform: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    transition: all .5s;
+    position: relative;
+    overflow: hidden;
+  }
