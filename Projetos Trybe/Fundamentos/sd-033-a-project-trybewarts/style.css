@@ -1,0 +1,72 @@
+.header { /* REQUISITO 1 */
+  background-color: rgb(50, 167, 145);
+  height: 100px;
+  display: flex;
+}
+
+.trybewarts-login { /* REQUISITO 3 */
+  display: flex;
+}
+
+main { /* REQUISITO 5 */
+  display: flex;
+}
+
+form { /* REQUISITO 5 */
+  display: flex;
+}
+
+#evaluation-form { /* REQUISITO 5 e 6 */
+  width: 675px;
+  flex-direction: column;
+}
+
+#trybewarts-header-title { /* REQUISITO 4 */
+  text-align: center;
+  display: flex;
+}
+
+#trybewarts-forms-logo { /* REQUISITO 7 */
+  height: 500px;
+  right: 0%;
+}
+
+.inputOne { /* REQUISITO 10 */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.inputOne label { /* REQUISITO 10 */
+  margin-right: 10px;
+}
+
+.inputTwo { /* REQUISITO 11 */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.inputTwo label { /* REQUISITO 11 */
+  margin-right: 10px;
+}
+
+.checkbox-label { /* REQUISITO 16 */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer { /* REQUISITO 19 */
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  background-color: rgb(50, 167, 145);
+}
+
+.counter {
+  /* color: red; */
+}
