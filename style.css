@@ -70,15 +70,14 @@ aside {
   text-decoration: none;
 }
 
-#rodape a:hover {
-  text-decoration: underline;
-}
 
 footer p {
   margin: 50px;
 }
 
 .center-footer {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
